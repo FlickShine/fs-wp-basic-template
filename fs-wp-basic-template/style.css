@@ -346,8 +346,8 @@ span + .edit-link:before,
 body {
     background-color: #fafafa;
     margin: 0 auto;
-    -webkit-font-smoothing: antialiased!important;
-    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 .seomarkup {
     position: absolute;
