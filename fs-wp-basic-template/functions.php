@@ -28,6 +28,7 @@
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(380, 260, true);
 add_theme_support('post-formats', array('aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',));
+remove_action('wp_head', 'wp_generator');
 
 if(!function_exists('user_meta')):
     /**
