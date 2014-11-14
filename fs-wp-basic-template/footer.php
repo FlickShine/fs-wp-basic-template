@@ -15,7 +15,7 @@
     <div itemscope itemtype="http://schema.org/Organization">
         <span itemprop="name">FlickShine</span>
         <span><a href="http://flickshine.com" itemprop="url">flickshine.com</a></span>
-        <img itemprop="logo" src="http://flickshine.com/wp-content/themes/mytheme/img/logo.png" />
+        <img itemprop="logo" alt="logo" src="http://flickshine.com/wp-content/themes/mytheme/img/logo.png" />
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
             <strong>Postal Address:</strong>
             <span itemprop="streetAddress">10-10 44 Ave Suite # 30, 4th floor</span>
