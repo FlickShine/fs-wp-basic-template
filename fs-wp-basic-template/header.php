@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.min.css">
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
-    <!--[if lt IE 9]><script src="http://cdn.jsdelivr.net/html5shiv/latest/html5shiv.min.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
     <?php wp_head(); ?>
 </head>
 
