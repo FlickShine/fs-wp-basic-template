@@ -43,14 +43,14 @@
     <div class="followus">
         <h2>Follow us</h2>
         <ul>
-            <li><a class="twitter" href="#" target="_blank">Twitter</a></li>
-            <li><a class="google" href="#" target="_blank">Google+</a></li>
-            <li><a class="facebook" href="#" target="_blank">Facebook</a></li>
-            <li><a class="yelp" href="#" target="_blank">Yelp</a></li>
-            <li><a class="foursquare" href="#" target="_blank">Foursquare</a></li>
+            <li><a class="twitter" href="#" target="_blank" rel="nofollow">Twitter</a></li>
+            <li><a class="google" href="#" target="_blank" rel="nofollow">Google+</a></li>
+            <li><a class="facebook" href="#" target="_blank" rel="nofollow">Facebook</a></li>
+            <li><a class="yelp" href="#" target="_blank" rel="nofollow">Yelp</a></li>
+            <li><a class="foursquare" href="#" target="_blank" rel="nofollow">Foursquare</a></li>
         </ul>
     </div>
-    <div class="copyright">All rights reserved &copy; <span>Created By <a target="_blank" href="http://flickshine.com/">Flickshine</a></span></div>
+    <div class="copyright">All rights reserved &copy; <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">Flickshine</a></span></div>
 </footer>
 
 <?php wp_footer();?>
