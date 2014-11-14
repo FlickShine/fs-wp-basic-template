@@ -50,7 +50,7 @@
             <li><a class="foursquare" href="#" target="_blank" rel="nofollow">Foursquare</a></li>
         </ul>
     </div>
-    <div class="copyright">All rights reserved &copy; <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">Flickshine</a></span></div>
+    <div class="copyright">All rights reserved &copy; <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">FlickShine</a></span></div>
 </footer>
 
 <?php wp_footer();?>
