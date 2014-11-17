@@ -32,6 +32,9 @@
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
     <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@yoursite">
+    <meta name="twitter:creator" content="@FlickShine">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <?php wp_head(); ?>
 </head>
