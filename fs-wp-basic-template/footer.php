@@ -2,16 +2,14 @@
 /**
  * The template for displaying the footer
  *
- * Contains footer content and the closing of the #main and #page div elements.
- *
- * @package WordPress
- * @subpackage fs-wp-basic-template
- * @since fs-wp-basic-template 1.0
+ * @copyright FlickShine
+ * @package fs-wp-basic-template
+ * @since 1.0
  */
 ?>
 
 <footer class="cf" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-    
+
     <!-- example of schema.org for HairSalon -->
     <div class="seomarkup" itemscope itemtype="http://schema.org/HairSalon">
         <span itemprop="name" class="fn">SohoNYCbarbers</span>
@@ -115,19 +113,37 @@
     <div class="followus">
         <h2>Follow us <span class="g-plusone" data-size="small" data-annotation="none"></span></h2>
         <ul>
-            <li><a class="twitter" href="#" target="_blank">Twitter</a></li>
+            <li><a class="twitter" href="#" target="_blank">Twitter</a>
+            </li>
             <li>
                 <a class="google" href="#" target="_blank">Google+</a>
                 <a class="seomarkup" href="http://plus.google.com/102075132768670729938" rel="publisher" target="_blank"></a>
             </li>
-            <li><a class="facebook" href="#" target="_blank">Facebook</a></li>
-            <li><a class="yelp" href="#" target="_blank">Yelp</a></li>
-            <li><a class="foursquare" href="#" target="_blank">Foursquare</a></li>
+            <li><a class="facebook" href="#" target="_blank">Facebook</a>
+            </li>
+            <li><a class="yelp" href="#" target="_blank">Yelp</a>
+            </li>
+            <li><a class="foursquare" href="#" target="_blank">Foursquare</a>
+            </li>
         </ul>
     </div>
-    <div class="copyright">All rights reserved &copy; <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">FlickShine</a></span></div>
+
+    <div class="copyright">
+        <?php echo '&copy; ' . date( 'Y' ) . ' <a href="' . home_url( '/' ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' . esc_attr( get_bloginfo( 'name' ) ) . '</a>'; ?>
+    </div>
+
+    <!--
+    <div class="scroll-top">
+		<a href="#scroll-top" title="">'&uarr;'</a>
+	</div>
+	-->
+
+    <div class="createdby">
+        <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">FlickShine</a></span>
+    </div>
+
+    <?php wp_footer();?>
 </footer>
 
-<?php wp_footer();?>
 </body>
 </html>
