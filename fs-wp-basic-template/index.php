@@ -24,13 +24,13 @@ get_header(); ?>
     ?>
     <div class="cf">
         
-        <div class="seomarkup"><?php echo apply_atomic_shortcode('entry_title','[entry-title permalink="0"]'); ?></div>
+        <div class="seomarkup"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></div>
         <div class="seomarkup entry-published"><?php the_time('Y-m-d');?></div>
         <div class="seomarkup updated"><?php the_time('Y-m-d');?></div>
         <div class="seomarkup">
-            <span class="vcard author"><span class="fn">
+            <span class="vcard author fn">
                 by <a href="https://plus.google.com/+FlickShineNewYork?rel=author">FlickShineNewYork</a>
-            </span></span>
+            </span>
         </div>
         
         <h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
