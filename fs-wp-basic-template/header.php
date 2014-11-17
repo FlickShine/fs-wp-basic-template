@@ -28,15 +28,15 @@
     <?php wp_head(); ?>
 </head>
 
-<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage">
 
-    <header class="cf" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <header class="cf" itemscope itemtype="http://schema.org/WPHeader">
         <div class="logo">
             <a href="<?php bloginfo('url');?>">
                 <img src="<?php bloginfo('template_url');?>/img/logo.png" alt="<?php $blog_title = get_bloginfo('name');?>" />
             </a>
         </div>
-        <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+        <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
             <?php wp_nav_menu( $args );?>
         </nav>
     </header>
