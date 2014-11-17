@@ -18,12 +18,12 @@
     <meta property="og:site_name" content="FlickShine">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
-    <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
     <meta property="og:title" content="FlickShine">
     <meta property="og:description" content="description + adress">
     <meta property="og:url" content="<?php get_site_url();?>">
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
+    <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <?php wp_head(); ?>
 </head>
