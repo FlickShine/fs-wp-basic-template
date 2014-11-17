@@ -1,3 +1,11 @@
+<?php
+/**
+* The template for displaying the header
+*
+* @package fs-wp-basic-template
+* @copyright FlickShine
+*/ ?>
+
 <!doctype html>
 <html lang="<?php language_attributes();?>">
 

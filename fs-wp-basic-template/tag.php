@@ -1,15 +1,14 @@
 <?php
 /**
- * The template for displaying Tag pages
- *
- * Used to display archive-type pages for posts in a tag.
- *
- * @link http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
- */
+* The template for displaying Tag pages
+*
+* Used to display archive-type pages for posts in a tag.
+*
+* @link http://codex.wordpress.org/Template_Hierarchy
+*
+* @package fs-wp-basic-template
+* @copyright FlickShine
+*/
 
 get_header(); ?>
 

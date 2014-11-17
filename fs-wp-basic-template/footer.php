@@ -1,11 +1,10 @@
 <?php
 /**
- * The template for displaying the footer
- *
- * @copyright FlickShine
- * @package fs-wp-basic-template
- */
-?>
+* The template for displaying the footer
+*
+* @package fs-wp-basic-template
+* @copyright FlickShine
+*/ ?>
 
 <footer class="cf" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 

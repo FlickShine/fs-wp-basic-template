@@ -1,13 +1,12 @@
 <?php
 /**
- * The template for displaying Author archive pages
- *
- * @link http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
- */
+* The template for displaying Author archive pages
+*
+* @link http://codex.wordpress.org/Template_Hierarchy
+*
+* @package fs-wp-basic-template
+* @copyright FlickShine
+*/
 
 get_header(); ?>
 

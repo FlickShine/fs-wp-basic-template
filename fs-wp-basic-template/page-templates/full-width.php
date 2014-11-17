@@ -1,11 +1,10 @@
 <?php
 /**
- * Template Name: Full Width Page
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
- */
+* Template Name: Full Width Page
+*
+* @package fs-wp-basic-template
+* @copyright FlickShine
+*/
 
 get_header(); ?>
 
