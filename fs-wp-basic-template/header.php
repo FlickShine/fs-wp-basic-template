@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="<?php language_attributes();?>">
 
 <head>
     <meta charset=<?php bloginfo( 'charset');?>>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?php wp_title( '&#124;', true, 'right' ); ?>
+        <?php wp_title('&#124;',true,'right');?>
     </title>
     <link rel="canonical" href="<?php get_site_url();?>">
     <link rel="icon" href="<?php bloginfo('template_url');?>/favicon.ico" type="image/x-icon">
@@ -28,15 +28,15 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
-    <header class="cf">
+    <header class="cf" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
         <div class="logo">
             <a href="<?php bloginfo('url');?>">
                 <img src="<?php bloginfo('template_url');?>/img/logo.png" alt="<?php $blog_title = get_bloginfo('name');?>" />
             </a>
         </div>
-        <nav>
+        <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
             <?php wp_nav_menu( $args );?>
         </nav>
     </header>
