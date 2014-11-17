@@ -2,7 +2,7 @@
 <html lang="<?php language_attributes();?>">
 
 <head>
-    <meta charset=<?php bloginfo( 'charset');?>>
+    <meta charset=<?php bloginfo('charset');?>>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.min.css">
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
     <!--[if lt IE 9]><script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
-    <meta property="og:site_name" content="FlickShine">
+    <meta property="og:site_name" content="<?php bloginfo('name');?>">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="FlickShine">
-    <meta property="og:description" content="description + adress">
+    <meta property="og:locale" content="<?php bloginfo('language');?>">
+    <meta property="og:title" content="<?php the_title($before,$after,$echo);?>">
+    <meta property="og:description" content="<?php bloginfo('description');?>">
     <meta property="og:url" content="<?php get_site_url();?>">
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
