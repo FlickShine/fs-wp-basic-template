@@ -11,7 +11,6 @@
 
 <head>
     <meta charset=<?php bloginfo('charset');?>>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         <?php wp_title('&#124;',true,'right');?>
@@ -22,7 +21,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
     <link rel="icon" href="<?php bloginfo('template_url');?>/favicon.ico" type="image/x-icon">
     <!--[if IE]><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta http-equiv="imagetoolbar" content="no"><![endif]-->
-    <!--[if lt IE 9]><script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
+    <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge"><script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
     <meta property="og:site_name" content="<?php bloginfo('name');?>">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="<?php bloginfo('language');?>">
@@ -35,6 +34,9 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@yoursite">
     <meta name="twitter:creator" content="@FlickShine">
+    <meta name="DC.title" content="<?php wp_title('&#124;',true,'right');?>">
+    <meta name="DC.subject" content="<?php bloginfo('description');?>">
+    <meta name="DC.creator" content="FlickShine">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <?php wp_head(); ?>
 </head>
