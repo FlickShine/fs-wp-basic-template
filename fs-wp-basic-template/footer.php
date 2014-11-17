@@ -10,7 +10,7 @@
  */
 ?>
 
-<footer class="cf">
+<footer class="cf" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
     
     <!-- example of schema.org for HairSalon -->
     <div class="seomarkup" itemscope itemtype="http://schema.org/HairSalon">
