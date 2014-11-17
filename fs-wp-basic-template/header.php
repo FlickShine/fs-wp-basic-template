@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="<?php bloginfo('name');?>">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="<?php bloginfo('language');?>">
-    <meta property="og:title" content="<?php the_title($before,$after,$echo);?>">
+    <meta property="og:title" content="<?php wp_title('&#124;',true,'right');?>">
     <meta property="og:description" content="<?php bloginfo('description');?>">
     <meta property="og:url" content="<?php get_site_url();?>">
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
