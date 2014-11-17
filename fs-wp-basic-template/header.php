@@ -34,9 +34,11 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@yoursite">
     <meta name="twitter:creator" content="@FlickShine">
-    <meta name="DC.title" content="<?php wp_title('&#124;',true,'right');?>">
-    <meta name="DC.subject" content="<?php bloginfo('description');?>">
-    <meta name="DC.creator" content="FlickShine">
+    <meta name="dc.title" content="<?php wp_title('&#124;',true,'right');?>">
+    <meta name="dc.language" content="<?php bloginfo('language');?>">
+    <meta name="dcterms.subject" content="<?php bloginfo('description');?>">
+    <meta name="dc.description" content="<?php bloginfo('description');?>">
+    <meta name="dc.creator" content="FlickShine">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <?php wp_head(); ?>
 </head>
