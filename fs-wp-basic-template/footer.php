@@ -4,7 +4,6 @@
  *
  * @copyright FlickShine
  * @package fs-wp-basic-template
- * @since 1.0
  */
 ?>
 
