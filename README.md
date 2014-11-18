@@ -1,13 +1,13 @@
 fs-wp-basic-template
 =========
 
-[WordPress](https://wordpress.org/) basic & clean template, optimized and SEO ready.
+[WordPress](https://wordpress.org/) basic fast and clean [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) template.
 
-As Base: [twentyfourteen](https://wordpress.org/themes/twentyfourteen) + [reset.css](https://github.com/ikeagold/css-reset) and etc
+Powered by: [twentyfourteen](https://wordpress.org/themes/twentyfourteen) + [reset.css](https://github.com/ikeagold/css-reset)
 
 ##Requirements
 
-* WordPress 4.0+
+* [WordPress](https://wordpress.org/) 4+
 
 License
 ----
