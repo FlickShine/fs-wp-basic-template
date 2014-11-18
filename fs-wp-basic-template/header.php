@@ -5,16 +5,13 @@
 * @package fs-wp-basic-template
 * @copyright FlickShine
 */ ?>
-
 <!doctype html>
-<html lang="<?php language_attributes();?>">
+<html <?php language_attributes();?>>
 
 <head>
     <meta charset=<?php bloginfo('charset');?>>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        <?php wp_title('&#124;',true,'right');?>
-    </title>
+    <title><?php wp_title('|',true,'right');?></title>
     <link rel="canonical" href="<?php get_site_url();?>">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.min.css">
@@ -25,7 +22,7 @@
     <meta property="og:site_name" content="<?php bloginfo('name');?>">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="<?php bloginfo('language');?>">
-    <meta property="og:title" content="<?php wp_title('&#124;',true,'right');?>">
+    <meta property="og:title" content="<?php wp_title('|',true,'right');?>">
     <meta property="og:description" content="<?php bloginfo('description');?>">
     <meta property="og:url" content="<?php get_site_url();?>">
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
@@ -34,13 +31,13 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@yoursite">
     <meta name="twitter:creator" content="@FlickShine">
-    <meta name="dc.title" content="<?php wp_title('&#124;',true,'right');?>">
+    <meta name="dc.title" content="<?php wp_title('|',true,'right');?>">
     <meta name="dc.language" content="<?php bloginfo('language');?>">
     <meta name="dcterms.subject" content="<?php bloginfo('description');?>">
     <meta name="dc.description" content="<?php bloginfo('description');?>">
     <meta name="dc.creator" content="FlickShine">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <?php wp_head(); ?>
+    <?php wp_head();?>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
