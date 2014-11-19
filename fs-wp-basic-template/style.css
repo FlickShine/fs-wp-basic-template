@@ -351,6 +351,7 @@ body {
 }
 .seomarkup {
     position: absolute;
+    top: 0;
     left: -10000px;
 }
 .pull-left {
