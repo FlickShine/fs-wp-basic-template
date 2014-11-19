@@ -137,7 +137,7 @@
 	-->
 
     <div class="createdby">
-        <span>Created By <a target="_blank" href="http://flickshine.com/" rel="nofollow">FlickShine</a></span>
+        <span>Created By <a target="_blank" href="http://flickshine.com/">FlickShine</a></span>
     </div>
 
     <?php wp_footer();?>
