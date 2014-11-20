@@ -80,3 +80,35 @@ function register_my_menu() {
 }
 
 add_action( 'init', 'register_my_menu' );
+
+/**
+ * Create a nicely formatted and more specific title element text for output
+ * in head of document, based on current view.
+ *
+ * @since Twenty Fourteen 1.0
+ *
+ * @global int $paged WordPress archive pagination page count.
+ * @global int $page  WordPress paginated post page count.
+ *
+ * @param string $title Default title text for current view.
+ * @param string $sep Optional separator.
+ * @return string The filtered title.
+ */
+
+function fs_wp_basic_template_wp_title( $title, $sep ) {
+    global $paged, $page;
+
+    if ( is_feed() ) {
+        return $title;
+    }
+    $title .= get_bloginfo( 'name', 'display' );
+    $site_description = get_bloginfo( 'description', 'display' );
+    if ( $site_description && ( is_home() || is_front_page() ) ) {
+        $title = "$title $sep $site_description";
+    }
+    if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
+        $title = "$title $sep " . sprintf( __( 'Page %s', 'fs-wp-basic-template' ), max( $paged, $page ) );
+    }
+    return $title;
+}
+add_filter( 'wp_title', 'fs_wp_basic_template_wp_title', 10, 2 );

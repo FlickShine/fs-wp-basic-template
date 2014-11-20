@@ -12,7 +12,7 @@
     <meta charset=<?php bloginfo('charset');?>>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title('|',true,'right');?></title>
-    <link rel="canonical" href="<?php get_site_url();?>">
+    <link rel="canonical" href="<?php bloginfo('url');?>">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/reset.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.min.css">
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
@@ -24,7 +24,7 @@
     <meta property="og:locale" content="<?php bloginfo('language');?>">
     <meta property="og:title" content="<?php wp_title('|',true,'right');?>">
     <meta property="og:description" content="<?php bloginfo('description');?>">
-    <meta property="og:url" content="<?php get_site_url();?>">
+    <meta property="og:url" content="<?php bloginfo('url');?>">
     <meta property="og:image" content="<?php bloginfo('template_url');?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
     <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
