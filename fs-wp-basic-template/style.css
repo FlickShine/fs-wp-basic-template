@@ -354,12 +354,6 @@ body {
     top: 0;
     left: -10000px;
 }
-.pull-left {
-    float: left;
-}
-.pull-right {
-    float: right;
-}
 .width1180 {
     width: 1180px;
     margin: 0 auto;
@@ -368,10 +362,10 @@ body {
     text-align: center;
 }
 .content_text {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: 'PT Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    font-weight: 400;
     color: #666;
 }
 .copyright {
