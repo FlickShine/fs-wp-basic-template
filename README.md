@@ -3,7 +3,7 @@ fs-wp-basic-template
 
 [FlickShine](http://flickshine.com) basic [WordPress](https://wordpress.org) template (fast, clean, [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)-optimized).
 
-Powered by: [twentyfourteen](https://wordpress.org/themes/twentyfourteen) + [reset.css](https://github.com/ikeagold/css-reset)
+Powered by: [twentyfourteen](https://wordpress.org/themes/twentyfourteen) + [normalize.css modified](https://github.com/ikeagold/normalize.css) (download latest)
 
 ##Requirements
 
