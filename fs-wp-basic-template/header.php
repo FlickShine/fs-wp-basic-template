@@ -45,7 +45,7 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-
+    <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
     <header class="cf" itemscope itemtype="http://schema.org/WPHeader">
         <div class="logo">
             <a href="<?php bloginfo('url');?>">
