@@ -1,5 +1,4 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -19,7 +18,6 @@ body {
 }
 /* HTML5 display definitions
    ========================================================================== */
-
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -74,7 +72,6 @@ template {
 }
 /* Links
    ========================================================================== */
-
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -92,7 +89,6 @@ a:hover {
 }
 /* Text-level semantics
    ========================================================================== */
-
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -158,7 +154,6 @@ sub {
 }
 /* Embedded content
    ========================================================================== */
-
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -175,7 +170,6 @@ svg:not(:root) {
 }
 /* Grouping content
    ========================================================================== */
-
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -211,12 +205,10 @@ samp {
 }
 /* Forms
    ========================================================================== */
-
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
  */
-
 /**
  * 1. Correct color not being inherited.
  *    Known issue: affects color of disabled elements.
@@ -359,7 +351,6 @@ optgroup {
 }
 /* Tables
    ========================================================================== */
-
 /**
  * Remove most spacing between table cells.
  */
@@ -424,10 +415,10 @@ th {
         page-break-after: avoid;
     }
 }
-/*fontstack ios-android-wp-fallback*/
+/*fontstack ios-android-wp-firefoxos-fallback*/
 
 body {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'RobotoRegular', 'Droid Sans', 'Segoe UI', Helvetica, Arial, Segoe, 'Lucida Grande', sans-serif;
+    font-family: 'Helvetica Neue', 'RobotoRegular', 'Droid Sans', 'Segoe UI', 'Fira Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
