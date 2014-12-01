@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/normalize.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.min.css">
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">
-    <!--[if IE]><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta http-equiv="imagetoolbar" content="no"><![endif]-->
+    <!--[if IE]><link rel="shortcut icon" href="<?php bloginfo('template_url');?>/favicon.ico" type="image/x-icon"><meta http-equiv="imagetoolbar" content="no"><![endif]-->
     <link rel="icon" href="<?php bloginfo('template_url');?>/favicon.ico" type="image/x-icon">
     <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge"><script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
     
