@@ -362,7 +362,6 @@ body {
     text-align: center;
 }
 .content_text {
-    font-family: 'PT Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
@@ -372,7 +371,6 @@ body {
     line-height: 30px;
     width: 1180px;
     margin: 0 auto;
-    font-family: "Helvetica Neue", Arial, sans-serif;
     color: #8c8c8c;
     font-size: 12px;
 }
