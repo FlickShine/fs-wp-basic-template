@@ -1,12 +1,13 @@
 <?php
 /**
-* The template for displaying the footer
-*
-* @package fs-wp-basic-template
-* @copyright FlickShine
-*/ ?>
+ * The template for displaying the footer
+ *
+ * @package fs-wp-basic-template
+ * @copyright FlickShine
+ */
+?>
 
-<footer class="cf" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<footer class="cf" data-role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
     <!-- example of schema.org for HairSalon -->
     <div class="seomarkup" itemscope itemtype="http://schema.org/HairSalon">
@@ -14,11 +15,11 @@
 
         <a itemprop="url" href="http://sohonycbarbers.com">sohonycbarbers.com</a>
 
-        <img itemprop="logo" src="<?php bloginfo('template_url');?>/img/logo.png" alt="logo" />
+        <img itemprop="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="logo"/>
 
         <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-            <meta itemprop="latitude" content="40.720896" />
-            <meta itemprop="longitude" content="73.997118" />
+            <meta itemprop="latitude" content="40.720896"/>
+            <meta itemprop="longitude" content="73.997118"/>
         </div>
 
         <span itemprop="telephone">(212)966-6069</span>
@@ -39,7 +40,8 @@
         <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <span itemprop="author">Mark Bearak</span>
             <span itemprop="itemReviewed">SohoNYCbarbers</span>
-            <meta itemprop="datePublished" content="2014-09-14">September 14, 2014
+            <meta itemprop="datePublished" content="2014-09-14">
+            September 14, 2014
             <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                 <span itemprop="ratingValue">5</span>/
                 <span itemprop="bestRating">5</span>stars
@@ -49,7 +51,8 @@
         <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <span itemprop="author">Joseph Ibragimov</span>
             <span itemprop="itemReviewed">SohoNYCbarbers</span>
-            <meta itemprop="datePublished" content="2013-11-28">November 28, 2013
+            <meta itemprop="datePublished" content="2013-11-28">
+            November 28, 2013
             <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                 <span itemprop="ratingValue">5</span>/
                 <span itemprop="bestRating">5</span>stars
@@ -59,7 +62,7 @@
 
         <div itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
             <span itemprop="itemreviewed">SohoNYCbarbers</span>
-            <img itemprop="photo" src="<?php bloginfo('template_url');?>/img/logo.png" alt="sohonycbarbers" />
+            <img itemprop="photo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="sohonycbarbers"/>
             <span itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
                 <span itemprop="average">5</span>
             <span itemprop="best">5</span>
@@ -74,34 +77,42 @@
         <meta itemprop="openingHours" content="Fr 10:00-15:30">
         <meta itemprop="openingHours" content="Su 10:30-18:00">
 
-        <a itemprop="maps" href="http://maps.google.com/maps?ll=40.720896,-73.997118&amp;z=15&amp;t=m&amp;hl=ru-RU&amp;gl=UA&amp;mapclient=embed&amp;q=396%20Broome%20St%20New%20York%2C%20NY%2010013%20%D0%A1%D0%A8%D0%90">URL of Map</a>
+        <a itemprop="maps"
+           href="http://maps.google.com/maps?ll=40.720896,-73.997118&amp;z=15&amp;t=m&amp;hl=ru-RU&amp;gl=UA&amp;mapclient=embed&amp;q=396%20Broome%20St%20New%20York%2C%20NY%2010013%20%D0%A1%D0%A8%D0%90">URL
+            of Map</a>
 
         <div itemscope itemtype="http://schema.org/photos">
             <div itemscope itemtype="http://schema.org/ImageObject">
                 <h2 itemprop="name">MEN`S HAIRCUT in sohonycbarbers</h2>
-                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/haircut_A.jpg" alt="MEN`S HAIRCUT" itemprop="contentUrl" />By <span itemprop="author">Soho NYC Barbershop</span>
+                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/haircut_A.jpg" alt="MEN`S HAIRCUT"
+                     itemprop="contentUrl"/>By <span itemprop="author">Soho NYC Barbershop</span>
                 Photographed in
                 <span itemprop="contentLocation">New York, NY</span>
                 Date uploaded:
-                <meta itemprop="datePublished" content="2014-01-01">Jan 01, 2014
+                <meta itemprop="datePublished" content="2014-01-01">
+                Jan 01, 2014
                 <span itemprop="description">MEN`S HAIRCUT</span>
             </div>
             <div itemscope itemtype="http://schema.org/ImageObject">
                 <h2 itemprop="name">MEN`S GROOMING in sohonycbarbers</h2>
-                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/Grooming_A.jpg" alt="MEN`S GROOMING" itemprop="contentUrl" />By <span itemprop="author">Soho NYC Barbershop</span>
+                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/Grooming_A.jpg" alt="MEN`S GROOMING"
+                     itemprop="contentUrl"/>By <span itemprop="author">Soho NYC Barbershop</span>
                 Photographed in
                 <span itemprop="contentLocation">New York, NY</span>
                 Date uploaded:
-                <meta itemprop="datePublished" content="2014-01-01">Jan 01, 2014
+                <meta itemprop="datePublished" content="2014-01-01">
+                Jan 01, 2014
                 <span itemprop="description">MEN`S GROOMING</span>
             </div>
             <div itemscope itemtype="http://schema.org/ImageObject">
                 <h2 itemprop="name">MEN`S SHAVE in sohonycbarbers</h2>
-                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/01_B.jpg" alt="MEN`S SHAVE" itemprop="contentUrl" />By <span itemprop="author">Soho NYC Barbershop</span>
+                <img src="http://sohonycbarbers.com/wp-content/themes/nextlevel/img/01_B.jpg" alt="MEN`S SHAVE"
+                     itemprop="contentUrl"/>By <span itemprop="author">Soho NYC Barbershop</span>
                 Photographed in
                 <span itemprop="contentLocation">New York, NY</span>
                 Date uploaded:
-                <meta itemprop="datePublished" content="2014-01-01">Jan 01, 2014
+                <meta itemprop="datePublished" content="2014-01-01">
+                Jan 01, 2014
                 <span itemprop="description">MEN`S SHAVE</span>
             </div>
         </div>
@@ -115,7 +126,8 @@
             </li>
             <li>
                 <a class="google" href="#" target="_blank">Google+</a>
-                <a class="seomarkup" href="http://plus.google.com/102075132768670729938" rel="publisher" target="_blank"></a>
+                <a class="seomarkup" href="http://plus.google.com/102075132768670729938" rel="publisher"
+                   target="_blank"></a>
             </li>
             <li><a class="facebook" href="#" target="_blank">Facebook</a>
             </li>
@@ -127,7 +139,7 @@
     </div>
 
     <div class="copyright">
-        <?php echo '&copy; ' . date( 'Y' ) . ' <a href="' . home_url( '/' ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' . esc_attr( get_bloginfo( 'name' ) ) . '</a>'; ?>
+        <?php echo '&copy; ' . date('Y') . ' <a href="' . home_url('/') . '" title="' . esc_attr(get_bloginfo('name', 'display')) . '">' . esc_attr(get_bloginfo('name')) . '</a>'; ?>
     </div>
 
     <!--
@@ -140,7 +152,7 @@
         <span>Created By <a target="_blank" href="http://flickshine.com/">FlickShine</a></span>
     </div>
 
-    <?php wp_footer();?>
+    <?php wp_footer(); ?>
 </footer>
 
 </body>
