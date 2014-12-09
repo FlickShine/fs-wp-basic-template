@@ -1,5 +1,19 @@
 <?php
 /**
+ * Optimizing WordPress Loading Speed With header.php & .htaccess
+ * header.php
+ * If your server doesn't support mod_deflate or mod_gzip,
+ * you can use this PHP script for gzip compression which works on both Apache and Nginx
+ */
+/**
+ * if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {
+ * ob_start( "ob_gzhandler" );
+ * }
+ * else {
+ * ob_start();
+ * } */
+
+/**
  * The template for displaying the header
  *
  * @package fs-wp-basic-template
