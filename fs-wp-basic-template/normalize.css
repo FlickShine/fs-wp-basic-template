@@ -68,7 +68,7 @@ a {
  */
 
 a:active, a:hover {
-    outline-style: none
+    outline: 0;
 }
 /* Text-level semantics
    ========================================================================== */
@@ -380,6 +380,12 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
+/*removing ie10-11 click delay*/
+
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
 /*removing click delay and active state, use on mobile app only*/
 /*html {
     -ms-touch-action: manipulation;
@@ -419,4 +425,9 @@ body {
 input[type="search"] {
     -webkit-appearance: none;
     box-sizing: content-box;
+}
+/* https://github.com/necolas/normalize.css/pull/379 */
+
+[role="button"] {
+    cursor: pointer;
 }
