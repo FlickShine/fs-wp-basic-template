@@ -120,7 +120,8 @@
     </div>
 
     <div class="followus">
-        <h2>Follow us <span class="g-plusone" data-size="small" data-annotation="none"></span></h2>
+        <h2>Follow us <span class="g-follow" data-annotation="none" data-height="15"
+                            data-href="https://plus.google.com/102732788061155796748" data-rel="publisher"></span></h2>
         <ul>
             <li><a class="twitter" href="#" target="_blank">Twitter</a>
             </li>
@@ -154,6 +155,15 @@
 
     <?php wp_footer(); ?>
 </footer>
+<script type="text/javascript">(function () {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    })();</script>
+
 
 </body>
 </html>

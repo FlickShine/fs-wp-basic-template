@@ -1,19 +1,5 @@
 <?php
 /**
- * Optimizing WordPress Loading Speed With header.php & .htaccess
- * header.php
- * If your server doesn't support mod_deflate or mod_gzip,
- * you can use this PHP script for gzip compression which works on both Apache and Nginx
- */
-/**
- * if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {
- * ob_start( "ob_gzhandler" );
- * }
- * else {
- * ob_start();
- * } */
-
-/**
  * The template for displaying the header
  *
  * @package fs-wp-basic-template
@@ -50,6 +36,7 @@
     <meta name="twitter:site" content="@yoursite">
     <meta name="twitter:creator" content="@FlickShine">
     Other meta tags what not supported by Yoast WordPress SEO plugin -->
+
     <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
     <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
@@ -59,7 +46,6 @@
     <meta name="dc.description" content="<?php bloginfo('description'); ?>">
     <meta name="dc.creator" content="FlickShine">
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <?php wp_head(); ?>
 </head>
 

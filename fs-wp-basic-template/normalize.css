@@ -25,19 +25,7 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
 /**
@@ -45,10 +33,7 @@ summary {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
-audio,
-canvas,
-progress,
-video {
+audio, canvas, progress, video {
     display: inline-block;
     vertical-align: baseline;
 }
@@ -66,8 +51,7 @@ audio:not([controls]) {
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 
-[hidden],
-template {
+[hidden], template {
     display: none;
 }
 /* Links
@@ -83,8 +67,7 @@ a {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
-a:hover {
+a:active, a:hover {
     outline-style: none
 }
 /* Text-level semantics
@@ -100,8 +83,7 @@ abbr[title] {
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 
-b,
-strong {
+b, strong {
     font-weight: bold;
 }
 /**
@@ -139,8 +121,7 @@ small {
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 
-sub,
-sup {
+sub, sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -196,10 +177,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  */
 
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em;
 }
@@ -216,11 +194,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
     margin: 0;
@@ -239,8 +213,7 @@ button {
  * Correct `select` style inheritance in Firefox.
  */
 
-button,
-select {
+button, select {
     text-transform: none;
 }
 /**
@@ -251,10 +224,7 @@ select {
  *    `input` and others.
  */
 
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
 }
@@ -262,16 +232,14 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-button[disabled],
-html input[disabled] {
+button[disabled], html input[disabled] {
     cursor: default;
 }
 /**
  * Remove inner padding and border in Firefox 4+.
  */
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
@@ -291,8 +259,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
 }
@@ -302,8 +269,7 @@ input[type="radio"] {
  * decrement button to change from `default` to `text`.
  */
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 /**
@@ -312,8 +278,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * padding (and `textfield` appearance).
  */
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 /**
@@ -359,8 +324,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-td,
-th {
+td, th {
     padding: 0;
 }
 /* ikeagold.github.io code above:
@@ -375,8 +339,7 @@ th {
         -ms-filter: none !important;
         filter: none !important;
     }
-    a,
-    a:visited {
+    a, a:visited {
         color: #444 !important;
         text-decoration: underline;
     }
@@ -389,29 +352,24 @@ th {
     a:after {
         content: '';
     }
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
     thead {
         display: table-header-group;
     }
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
     @page {
         margin: 0.5cm;
     }
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
@@ -422,9 +380,8 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
-/*removing click delay and active state*/
-
-html {
+/*removing click delay and active state, use on mobile app only*/
+/*html {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -434,7 +391,8 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
+}*/
+
 .float-left {
     float: left;
 }
@@ -446,8 +404,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-.cf:before,
-.cf:after {
+.cf:before, .cf:after {
     content: '';
     display: table;
 }
