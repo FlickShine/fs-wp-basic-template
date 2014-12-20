@@ -373,10 +373,10 @@ td, th {
         page-break-after: avoid;
     }
 }
-/*fontstack ios-android-wp-firefoxos-fallback*/
+/*fontstack 'Noto Sans'(google)-ios-android-wp-firefoxos-fallback*/
 
 body {
-    font-family: 'Helvetica Neue', 'RobotoRegular', 'Droid Sans', 'Segoe UI', 'Fira Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Roboto', 'Droid Sans', 'Segoe UI', 'Fira Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
