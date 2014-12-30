@@ -22,7 +22,7 @@
     <link rel="icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon">
     <!--[if lt IE 9]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="http://cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
+    <script src="//cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
 
     <!-- To automatize this tags, pls use Yoast WordPress SEO plugin - https://yoast.com/wordpress/plugins/seo/
     <link rel="canonical" href="<?php bloginfo('url'); ?>">
