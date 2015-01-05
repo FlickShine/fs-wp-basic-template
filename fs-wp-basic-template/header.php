@@ -7,7 +7,7 @@
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
     <meta charset=<?php bloginfo('charset'); ?>>
@@ -17,12 +17,11 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/favicon.ico" type="image/x-icon">
     <meta http-equiv="imagetoolbar" content="no"><![endif]-->
     <link rel="icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon">
-    <!--[if lt IE 9]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="//cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
+    <!--[if lt IE 9]><script src="//cdn.jsdelivr.net/g/html5shiv,css3-mediaqueries"></script><![endif]-->
 
     <!-- To automatize this tags, pls use Yoast WordPress SEO plugin - https://yoast.com/wordpress/plugins/seo/
     <link rel="canonical" href="<?php bloginfo('url'); ?>">
@@ -45,11 +44,13 @@
     <meta name="dcterms.subject" content="<?php bloginfo('description'); ?>">
     <meta name="dc.description" content="<?php bloginfo('description'); ?>">
     <meta name="dc.creator" content="FlickShine">
+    <meta name="Copyright" content="">
 
     <?php wp_head(); ?>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<!-- Add to body tag a webpage type from schema.org like itemscope itemtype="http://schema.org/HairSalon" -->
+<body>
 <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
     href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 <header class="cf" data-role="header" itemscope itemtype="http://schema.org/WPHeader">
