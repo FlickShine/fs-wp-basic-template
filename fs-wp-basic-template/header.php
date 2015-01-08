@@ -72,8 +72,11 @@
 
     <meta name="author" content="FlickShine">
 
-    <!-- Who owns the content of this site? -->
-    <meta name="copyright" content="">
+    <!-- Who owns the content of this site? 
+    <meta name="copyright" content=""> - not valid
+    http://dev.w3.org/html5/spec/text-level-semantics.html#the-small-element
+    So, fill copyright and etc in <small> element in footer
+    -->
 
     <?php wp_head(); ?>
 </head>
