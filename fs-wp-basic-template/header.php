@@ -7,7 +7,8 @@
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
+<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage">
+<!--prefix="og: http://ogp.me/ns#" adding in yoast-->
 
 <head>
     <meta charset=<?php bloginfo('charset'); ?>>
