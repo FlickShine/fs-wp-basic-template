@@ -7,7 +7,7 @@
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage">
+<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta charset=<?php bloginfo('charset'); ?>>
