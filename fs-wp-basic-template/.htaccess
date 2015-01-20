@@ -1,4 +1,5 @@
 ## CUSTOM
+#AddType 'text/html; charset=UTF-8' html
 
 #GoDaddy and DreamHost
 <IfModule pagespeed_module>

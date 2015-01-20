@@ -11,7 +11,7 @@
 <!--prefix="og: http://ogp.me/ns#" adding in yoast-->
 
 <head>
-    <meta charset=<?php bloginfo('charset'); ?>>
+    <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/components/normalize.css/normalize.min.css">
