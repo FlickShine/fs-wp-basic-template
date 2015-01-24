@@ -64,7 +64,7 @@
 
     <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/logo.png">
     <meta property="og:keywords" content="key,words">
-    <meta property="fb:app_id" content="appid from http://findmyfacebookid.com/">
+
     <meta name="dc.title" content="<?php wp_title('|', true, 'right'); ?>">
     <meta name="dc.language" content="<?php bloginfo('language'); ?>">
     <meta name="dcterms.subject" content="<?php bloginfo('description'); ?>">
