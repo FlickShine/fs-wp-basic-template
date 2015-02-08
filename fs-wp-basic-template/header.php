@@ -84,8 +84,8 @@
 
 <!-- Add to body tag a webpage type from schema.org like itemscope itemtype="http://schema.org/HairSalon" or Organization -->
 <body itemscope itemtype="http://schema.org/HairSalon">
-<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please
-    <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+<!--[if lt IE 7]><mark>You are using an <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</mark><![endif]-->
 
 <!-- example of schema.org for HairSalon -->
 <div class="seomarkup">
