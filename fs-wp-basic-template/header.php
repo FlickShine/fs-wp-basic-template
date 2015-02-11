@@ -67,7 +67,6 @@
 
     <meta name="dc.title" content="<?php wp_title('|', true, 'right'); ?>">
     <meta name="dc.language" content="<?php bloginfo('language'); ?>">
-    <meta name="dcterms.subject" content="<?php bloginfo('description'); ?>">
     <meta name="dc.description" content="<?php bloginfo('description'); ?>">
     <meta name="dc.creator" content="FlickShine">
 
@@ -89,9 +88,9 @@
 
 <!-- example of schema.org for HairSalon -->
 <div class="seomarkup">
-    <span itemprop="name" class="fn">SohoNYCbarbers</span>
+    <span itemprop="name" class="fn"><?php echo esc_attr(get_bloginfo('name', 'display')); ?></span>
 
-    <a itemprop="url" href="http://sohonycbarbers.com">sohonycbarbers.com</a>
+    <a itemprop="url" href="<?php bloginfo('url'); ?>"><?php bloginfo('url'); ?></a>
 
     <img itemprop="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="logo"/>
 
@@ -111,7 +110,7 @@
 
     <span itemprop="priceRange">$$</span>
 
-    <span itemprop="description">All Men’s Haircut, Grooming, Shave. We will go all out to make You look and feel fabulous.</span>
+    <span itemprop="description"><?php bloginfo('description'); ?></span>
 
     <div itemprop="review" itemscope itemtype="http://schema.org/Review">
         <span itemprop="author">Mark Bearak</span> <span itemprop="itemReviewed">SohoNYCbarbers</span>
