@@ -14,8 +14,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title('|', true, 'right'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/components/normalize.css/normalize.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/components/ig-css-addons/ig-css-addons.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
 
     <!-- for mobile:
     <meta name="viewport" content="width=device-width">
@@ -69,14 +68,7 @@
     <meta name="dc.language" content="<?php bloginfo('language'); ?>">
     <meta name="dc.description" content="<?php bloginfo('description'); ?>">
     <meta name="dc.creator" content="FlickShine">
-
     <meta name="author" content="FlickShine">
-
-    <!-- Who owns the content of this site? 
-    <meta name="copyright" content=""> - not valid
-    http://dev.w3.org/html5/spec/text-level-semantics.html#the-small-element
-    So, fill copyright and etc in <small> element in footer
-    -->
 
     <?php wp_head(); ?>
 </head>
