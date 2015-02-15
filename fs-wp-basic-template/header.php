@@ -25,7 +25,6 @@
     <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic"> -->
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
-    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
     <!-- Generate all icons by: http://iconifier.net , http://realfavicongenerator.net -->
 
