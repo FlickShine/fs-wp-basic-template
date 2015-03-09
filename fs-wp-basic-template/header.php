@@ -7,7 +7,7 @@
  */
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> dir="ltr" itemscope itemtype="http://schema.org/WebPage">
+<html <?php language_attributes(); ?> dir="ltr">
 <!--prefix="og: http://ogp.me/ns#" adding in yoast-->
 
 <head>
@@ -72,12 +72,13 @@
     <?php wp_head(); ?>
 </head>
 
-<!-- Add to body tag a webpage type from schema.org like itemscope itemtype="http://schema.org/HairSalon" or Organization -->
 <body itemscope itemtype="http://schema.org/HairSalon">
 <!--[if lt IE 7]><mark>You are using an <strong>outdated</strong> browser. Please
     <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</mark><![endif]-->
 
-<!-- example of schema.org for HairSalon -->
+<!-- Add to body tag a webpage type from schema.org
+like itemscope itemtype="http://schema.org/HairSalon" or Organization or etc
+example of schema.org for HairSalon -->
 <div class="seomarkup">
     <span itemprop="name" class="fn"><?php echo esc_attr(get_bloginfo('name', 'display')); ?></span>
 
