@@ -8,11 +8,7 @@
 
 get_header(); ?>
 
-    <main class="cf" data-role="main">
-
-        <aside>
-
-        </aside>
+    <main class="main cf" data-role="main">
 
         <article>
             <?php
@@ -23,6 +19,8 @@ get_header(); ?>
             endif;
             ?>
         </article>
+
+        <aside></aside>
     </main>
 
 <?php

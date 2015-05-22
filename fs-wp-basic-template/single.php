@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-    <main class="width1180 cf" data-role="main">
+    <main class="main cf" data-role="main">
 
         <?php while (have_posts()) : the_post(); ?>
 

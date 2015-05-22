@@ -1,15 +1,4 @@
-/*
-Theme Name: fs-wp-basic-template
-Theme URI: flickshine.com
-Author: FlickShine
-Author URI: https://ikeagold.github.io/
-Description: WordPress basic template
-Version: 1.0
-License: MIT
-License URI: http://opensource.org/licenses/MIT
-Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
-Text Domain: fs-wp-basic-template
-*/
+/* imports */
 @import "components/normalize.css/normalize";
 @import "components/ig-css-addons/ig-css-addons";
 
@@ -165,10 +154,6 @@ div.wp-caption.alignright img[class*="wp-image-"], div.wp-caption.alignright .wp
   z-index: 100000;
 }
 
-.hide {
-  display: none;
-}
-
 /* Clearing floats */
 
 .footer-sidebar:before, .footer-sidebar:after, .hentry:before, .hentry:after, .gallery:before, .gallery:after, .slider-direction-nav:before, .slider-direction-nav:after, .contributor-info:before, .contributor-info:after, .search-box:before, .search-box:after, [class*="content"]:before, [class*="content"]:after, [class*="site"]:before, [class*="site"]:after {
@@ -242,8 +227,8 @@ input[type='submit']:hover, input[type='submit']:focus {
   left: -9999px;
 }
 
-.width1180 {
-  width: 1180px;
+.main {
+  max-width: 1180px;
   margin: 0 auto;
 }
 

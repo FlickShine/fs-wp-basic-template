@@ -13,8 +13,9 @@
  * @copyright FlickShine
  */
 
-get_header();?>
-    <main id="content" class="width1180 cf" data-role="main">
+get_header(); ?>
+
+    <main id="content" class="main cf" data-role="main">
         <section>
             <?php
             if (have_posts()):
