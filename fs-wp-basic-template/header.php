@@ -14,7 +14,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title('|', true, 'right'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
 
     <!-- for mobile:
     <meta name="viewport" content="width=device-width">

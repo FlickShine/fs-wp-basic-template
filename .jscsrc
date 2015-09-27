@@ -1,5 +1,15 @@
 {
   "preset": "google",
   "disallowSpacesInAnonymousFunctionExpression": null,
-  "excludeFiles": ["node_modules/**"]
+  "maximumLineLength": 220,
+  "validateIndentation": 2,
+  "esnext": true,
+  "disallowParenthesesAroundArrowParam": true,
+  "requireArrowFunctions": true,
+  "excludeFiles": [
+    "node_modules/**",
+    "dist/**",
+    "gulpfile.babel.js",
+    "src/scripts/bundle.js"
+  ]
 }

@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.2"
+    "components-font-awesome": "~4.3.0",
+    "ig-css-addons": "ikeagold/ig-css-addons#~1.0.0",
+    "normalize.css": "~3.0.3"
   }
 }

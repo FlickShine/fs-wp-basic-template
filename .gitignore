@@ -1,7 +1,5 @@
-package.json
-
 # NodeJS modules #
-###################
+##################
 node_modules
 
 # Compiled source #
@@ -47,10 +45,22 @@ Thumbs.db
 Network Trash Folder
 Temporary Items
 .apdisk
+$RECYCLE.BIN/
+
+# git credential file #
+#######################
+.gitconfig.local
+
+# Compiled Python files #
+#########################
+*.pyc
 
 # Other #
 #########
-dist
-src/components/
 .idea
-$RECYCLE.BIN/
+.vagrant
+.dist
+.tmp
+src/bower_components
+prepros.cfg
+package.json
