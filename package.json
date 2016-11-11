@@ -1,0 +1,30 @@
+{
+  "name": "fs-wp-basic-template",
+  "version": "1.0.0",
+  "description": "wordpress template boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlickShine/fs-wp-basic-template.git"
+  },
+  "keywords": [
+    "wp",
+    "wordpress",
+    "php"
+  ],
+  "author": "FlickShine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlickShine/fs-wp-basic-template/issues"
+  },
+  "homepage": "https://github.com/FlickShine/fs-wp-basic-template#readme",
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-plugin-html": "^1.6.0",
+    "stylelint": "^7.5.0",
+    "stylelint-config-standard": "^14.0.0"
+  }
+}

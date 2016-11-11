@@ -1,8 +1,19 @@
 {
-  "rules": {
-    "strict": 0,
-    "camelcase": 0,
-    "trailing-spaces": 0,
-    "quotes": [2, "single"]
-  }
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true
+  },
+  "plugins": [
+    "html"
+  ]
 }

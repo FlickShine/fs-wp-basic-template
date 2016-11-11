@@ -1,6 +1,7 @@
 # NodeJS modules #
 ##################
 node_modules
+bower_components
 
 # Compiled source #
 ###################
@@ -59,8 +60,7 @@ $RECYCLE.BIN/
 #########
 .idea
 .vagrant
-.dist
-.tmp
-src/bower_components
-prepros.cfg
-package.json
+.npmrc
+dist/
+tmp/
+src/bower_components/

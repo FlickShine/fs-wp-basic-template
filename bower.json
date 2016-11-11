@@ -1,9 +1,9 @@
 {
   "name": "fs-wp-basic-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/FlickShine/fs-wp-basic-template",
   "authors": [
-    "Arthur Parkhisenko <ikeagold@gmail.com>"
+    "FlickShine"
   ],
   "main": "style.css",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "components-font-awesome": "~4.3.0",
-    "ig-css-addons": "ikeagold/ig-css-addons#~1.0.0",
-    "normalize.css": "~3.0.3"
+    "components-font-awesome": "^4.7.0",
+    "ig-css-addons": "ikeagold/ig-css-addons#^1.0.0",
+    "normalize.css": "^5.0.0"
   }
 }
