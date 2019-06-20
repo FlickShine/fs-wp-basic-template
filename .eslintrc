@@ -3,10 +3,12 @@
     "eslint:recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 5
+    "ecmaVersion": 8,
+    "sourceType": "module"
   },
   "env": {
     "browser": true,
+    "es6": true,
     "jquery": true
   },
   "globals": {

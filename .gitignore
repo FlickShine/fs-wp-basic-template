@@ -1,7 +1,6 @@
 # NodeJS modules #
 ##################
 node_modules
-bower_components
 
 # Compiled source #
 ###################
@@ -63,4 +62,3 @@ $RECYCLE.BIN/
 .npmrc
 dist/
 tmp/
-src/bower_components/

@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/FlickShine/fs-wp-basic-template#readme",
   "devDependencies": {
-    "eslint": "^3.10.0",
-    "eslint-plugin-html": "^1.6.0",
-    "stylelint": "^7.5.0",
-    "stylelint-config-standard": "^14.0.0"
+    "eslint": "^5.16.0",
+    "eslint-plugin-html": "^5.0.5",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
   }
 }
